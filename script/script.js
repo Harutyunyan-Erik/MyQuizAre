@@ -38,9 +38,6 @@ function typeWriter(){
 }
 typeWriter();
 
-// valueSetter()
-// tagCreator()
-
 // quiz code area
 
 const quizGenerator = (quizList) => {
@@ -61,3 +58,17 @@ const quizGenerator = (quizList) => {
 const quizConfig = quizGenerator(questions);
 
 quizConfig();
+
+const prevButton = () => { // Rename previusButton to prevButton
+    if (quizStep > 0) {
+      quizStep--;
+      quizConfig();
+    }
+  }
+  
+  const nextButton = () => { // Rename nextButton to nextButton
+    if (quizStep < questions.length - 1) {
+      quizStep++;
+      quizConfig();
+    }
+  }

@@ -82,10 +82,6 @@ main{
     padding: 10px;
 }
 
-.quiz_container ul{
-
-}
-
 .quiz_container li{
     padding: 10px 20px;
     border: 1px solid gray;
@@ -106,4 +102,25 @@ main{
 
 .correct_answer{
     box-shadow: 1px 2px 3px green;
+}
+
+
+.buttons_class{
+    width: 100%;
+    text-align: center;
+    padding-top: 20px;
+    margin-top: 20px;
+}
+
+.buttons_class button{
+    width: 90px;
+    height: 20px;
+    transition-duration: 0.5s;
+    cursor: pointer;
+    border: none;
+    border-radius: 12px;
+}
+
+.buttons_class button:hover{
+    background-color: #ccc;
 }
