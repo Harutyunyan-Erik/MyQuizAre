@@ -1,16 +1,23 @@
 export const text = {
-    hy: {
-        warningText: "սֆդսֆսդֆսդֆսդֆսդ"
+    AM: {
+        warrningText: 'Թեստավորմանը մասնակցելու համար խնդրում ենք մուտքագրել գաղտնաբառը',
+        login: 'Մուտք',
+        quizes: "հարցեր",
+        do: "ԹուԴու"
     },
 
-    en: {
-        warningText: "sdfdsfsdfsfs"
+    EN: {
+        warrningText: 'Please enter the password to participate in the test',
+        login: 'Login',
+        quizes: "Quiz",
+        do: "ToDo"
     },
 
-    ru: {
-        warningText: "дйкдйфдксфйскфйсл"
+    RU: {
+        warrningText: "Пожалуйста, введите пароль для участия в тесте",
+        login: 'Логин',
+        quizes: "Опрос",
+        do: "ТуДу"
     },
 }
-
-
-export const dafaultLanguage = "hy";
+export let defaultLanguage = 'AM';
